@@ -5,11 +5,15 @@ const Footer = () => {
       <div className="mb-4 bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       <p>© 2025 Nushrat. All rights reserved.</p>
       <div className="flex gap-3">
-        {mySocials.map((social, index) => (
+        {mySocials.map((social, index) => {
+          const Icon = social.icon;
+          return (
+
           <a href={social.href} key={index}>
-            <img src={social.icon} className="w-5 h-5" alt={social.name} />
+            <Icon className="w-8 h-8 text-white hover:text-blue-200" />
           </a>
-        ))}
+          )
+})}
       </div>
       
     </section>
