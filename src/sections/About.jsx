@@ -17,7 +17,7 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5] bg-black/50"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Nusrat Jahan</p>
+            <p className="headtext">Hi, I'm Nushrat Jahan</p>
             <p className="subtext">
               Over the last 4 years, I’ve honed my design skills to craft visually compelling graphics, brand identities, and digital assets that communicate with clarity and creativity.
             </p>
@@ -58,22 +58,7 @@ const About = () => {
   text="Visual Hierarchy"
   containerRef={grid2Container}
 />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%", }}
-              
-              image="assets/logos/ai-file.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/photoshop.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/figma.png"
-              containerRef={grid2Container}
-            />
+
           </div>
         </div>
         {/* Grid 3 */}
